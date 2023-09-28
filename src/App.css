@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.App {
+  width: 100vw;
+  height: 100 vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #D8D4F2;
+  font-family: 'Nunito', sans-serif;
+}
+
+input {
+  width: 400px;
+  height: 38px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 7px 0px 0px 7px;
+  border: 1px solid black;
+}
+
+.input--Wrapper {
+  align-items: center;
+}
+
+.search--button {
+  height: 41px;
+  width: 80px;
+  padding-top: 6px;
+  background-color: #B8AEA3;
+  color: white;
+  border-radius: 0px 7px 7px 0px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.audio--button {
+  height: 35px;
+  width: 50px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.error--message {
+  font-size: 25px;
+  padding-left: 6rem;
+}
+
+h1 {
+  padding-top: 50px;
+  color: #332E3C;
+}
+
+h2 {
+  padding-top: 5rem;
+  margin: 0px;
+}
+
+hr {
+  width: 350px;
+  border: solid rgba(0, 0, 0, 0.13) 1px;
+}
+
+.result--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input--bar {
+padding-left: 2rem;
+}
+
+p {
+  width: 400px;
+}
